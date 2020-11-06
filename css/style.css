@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 10%;
+    background-color:rgb(139, 130, 130);
+    position: fixed;
+    top:0;
+    left: 0;
+    overflow:hidden;
+    padding:10px; 
+}
+.menu img{
+    width: 200px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 60px;
+}
+.menu a{
+    margin-right: 40px;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px;
+    font-style: italic;
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.menu a:hover{
+    background-color:rgba(248, 229, 55, 0.5);
+}
+.special{
+    margin:80px;
+}
+.special> h2{
+    color: black;
+    font-style: italic;
+    text-align: center; 
+    padding-top:80px;
+    font-size: 50px;
+}
+.special #cuore{
+    color: red;
+    padding:5px;
+}
+.immagine{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.immagine .layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: relative;
+}                
+.immagine:hover .layover{
+    display: none;
+}
+.immagine h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-style: italic;
+    transform: translate(-50%,-50%);
+    text-shadow: 4px 4px black;
+}
+#otranto{
+    background-image: url(../img/otranto.jpg);
+}
+#leuca{
+    background-image: url(../img/leuca.jpeg);
+}
+#trentino{
+    background-image: url(../img/trentino.jpg);
+}
+#tornasu{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding:10px;
+}
+#tornasu img{
+    background-color: white;
+    border-radius: 50%;
+}
